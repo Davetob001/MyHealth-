@@ -1,0 +1,302 @@
+
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav .logo img {
+    height: 50px;
+}
+
+.nav .links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav .links a:hover {
+    color: #007BFF;
+}
+
+.nav .links button {
+    padding: 8px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.nav .links button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+
+/* Landing Page */
+.Landing {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #e9ecef;
+}
+
+.landingText {
+    flex: 1;
+    padding: 20px 50px;
+}
+
+.landingText h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.landingText h3 {
+    font-size: 24px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.landingText .btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.landingText .btn a:hover {
+    background-color: #0056b3;
+}
+
+.landingImage {
+    flex: 1;
+    text-align: right;
+    padding: 20px 50px;
+}
+
+.landingImage img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.aboutText {
+    flex: 1;
+    padding: 20px 50px;
+}
+
+.aboutText h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.aboutText img {
+    margin-top: 20px;
+}
+
+.aboutlist {
+    flex: 1;
+    padding: 20px 50px;
+}
+
+.aboutlist ol {
+    list-style: none;
+    padding: 0;
+}
+
+.aboutlist ol li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.aboutlist ol li span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.aboutlist ol li p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Info Section */
+.infoSection {
+    padding: 50px 0;
+    background-color: #e9ecef;
+}
+
+.infoHeader {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.infoHeader h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.infoCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.cardcontent {
+    padding: 20px;
+}
+
+.cardcontent h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cardcontent p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.cardBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007BFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.cardBtn img {
+    width: 20px;
+}
+
+.cardBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Banner Section */
+.BannerText {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.BannerText h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.BannerText a img {
+    width: 150px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.BannerText a img:hover {
+    transform: scale(1.1);
+}
+
+.bannerImg {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.bannerImg img {
+    max-width: 100%;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.footer h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footerlinks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footerlinks a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footerlinks a:hover {
+    color: #007BFF;
+}
